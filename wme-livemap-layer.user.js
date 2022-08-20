@@ -2,9 +2,13 @@
 // @name        WME Livemap Layer
 // @namespace
 // @description
-// @match       /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
+// @match        https://www.waze.com/editor*
+// @match        https://www.waze.com/*/editor*
+// @match        https://beta.waze.com/editor*
+// @match        https://beta.waze.com/*/editor*
+// @exclude      https://www.waze.com/user/editor*
 // @icon
-// @version     2022.08.16.01
+// @version     2022.08.19.01
 // @grant       none
 // ==/UserScript==
 
